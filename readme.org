@@ -1,0 +1,31 @@
+* Introduction
+This is a simple script to download and install Atom with LaTex support for Linux Mint
+** Install
+Just clone this repo or download the zip file.
+*** Zip file
+#BEGIN_SRC sh
+mkdir -p install-atom-latex/
+unzip master.zip -d install-atom-latex/
+cd install-atom-latex/
+#END_SRC sh
+*** Run the script
+Make sure the script has permission to run 
+#BEGIN_SRC sh
+chmod +x mint-install-atom-latex.sh
+#END_SRC sh
+Simply run the script by executing
+#BEGIN_SRC sh
+./mint-install-atom-latex.sh
+#END_SRC sh
+*** Done!
+1. You are now done installing. Open up Atom and browse to the install-atom-latex/ directory
+2. Open the file demo.tex
+3. Test that compiling works by executing:
+#BEGIN_SRC sh
+ctrl-alt-b
+#END_SRC sh
+A new file called demo.pdf should now have appeared in your folder. And the file should have been
+opened by your default pdf-viewer.
+** Licence
+MIT
+
