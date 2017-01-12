@@ -29,5 +29,5 @@ apm install language-tex
 # Install texlive-full and all LaTex dependencies
 echo -e "${cyan}>> Downloading and installing texlive...${nc}"
 echo -e "${cyan}>> This will take a while... Why not grab a snack? ${green}:)${nc}"
-# sudo apt-get install texlive-full 
+sudo apt-get install texlive-full 
 echo -e "${cyan}>> All done! Have a great day! ${green}:)${nc}"
