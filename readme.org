@@ -10,9 +10,8 @@ cd atom-latex/
 NOTICE: This section is only for if you downloaded the zip-file from github.
 If you cloned the repo you can skip this part
 #+BEGIN_SRC sh
-mkdir -p atom-latex/
-unzip mint-install-atom-latex-master.zip -d atom-latex/
-cd atom-latex/
+unzip mint-install-atom-latex-master.zip && mv mint-install-atom-latex-master/ mint-install-atom-latex/
+cd mint-install-atom-latex/
 #+END_SRC sh
 *** Run the script
 Make sure the script has permissions to run 
