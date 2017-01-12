@@ -7,6 +7,8 @@ git clone https://github.com/cjiq/mint-install-atom-latex.git atom-latex/
 cd atom-latex/
 #+END_SRC
 *** Zip file
+NOTICE: This section is only for if you downloaded the zip-file from github.
+If you cloned the repo you can skip this part
 #+BEGIN_SRC sh
 mkdir -p atom-latex/
 unzip master.zip -d atom-latex/
@@ -19,7 +21,7 @@ chmod +x mint-install-atom-latex.sh
 #+END_SRC sh
 Simply run the script by executing
 #+BEGIN_SRC sh
-./mint-install-atom-latex.sh
+sudo ./mint-install-atom-latex.sh
 #+END_SRC sh
 *** Done!
 1. You are now done installing. Open up Atom and browse to the atom-latex/ directory
