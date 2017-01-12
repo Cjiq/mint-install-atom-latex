@@ -23,7 +23,7 @@ Simply run the script by executing
 sudo ./mint-install-atom-latex.sh
 #+END_SRC sh
 *** Done!
-1. You are now done installing. Open up Atom and browse to the atom-latex/ directory
+1. You are now done installing. Open up Atom and browse to the mint-install-atom-latex/ directory
 2. Open the file demo.tex
 3. Test that compiling works by executing:
 #+BEGIN_SRC sh
